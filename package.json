@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon api/index.js",
+    "dev": "nodemon api/index.js" 
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "vanilla": "^0.0.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
